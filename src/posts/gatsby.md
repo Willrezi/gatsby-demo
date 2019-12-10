@@ -5,6 +5,8 @@ date: "2019-04-04"
 
 I just started to learn how to use Gatsby
 
+![designer](./designer.png)
+
 ## Topics Covered
 
 1. Gatsby
