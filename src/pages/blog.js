@@ -38,7 +38,6 @@ const BlogPage = () => {
           )
         })}
       </ol>
-      <p>first post</p>
     </Layout>
   )
 }
