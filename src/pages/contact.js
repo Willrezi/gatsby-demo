@@ -8,6 +8,10 @@ const ContactPage = () => {
       <Head title="Contact" />
       <h1>Contact</h1>
       <p>Contact me by mail @ wilfried.lloza@gmail.com</p>
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="email" name="email" placeholder="Votre email" />
+        <button type="submit">OK</button>
+      </form>
     </Layout>
   )
 }
