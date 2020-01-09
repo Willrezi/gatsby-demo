@@ -9,6 +9,7 @@ const ContactPage = () => {
       <h1>Contact</h1>
       <p>Contact me by mail @ wilfried.lloza@gmail.com</p>
       <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
         <input type="email" name="email" placeholder="Votre email" />
         <button type="submit">OK</button>
       </form>
